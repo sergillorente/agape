@@ -4,7 +4,7 @@ const Meeting = () => {
     return (
         <div>
             <div>
-                <img src ="" alt="Background image" />
+                <img src ='/images/PeopleGathering.jpg' alt="Background image" />
                 <div>
                     <h2>
                         Personas · Compromiso · Misión
