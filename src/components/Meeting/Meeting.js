@@ -1,10 +1,13 @@
 import React from 'react';
 
+import FirstCarousel from './FirstCarousel';
+import { FirstCarouselData } from './FirstCarouselData';
+
 const Meeting = () => {
     return (
         <div>
             <div>
-                <img src ='/images/PeopleGathering.jpg' alt="Background image" />
+                <FirstCarousel slides={FirstCarouselData} />
                 <div>
                     <h2>
                         Personas · Compromiso · Misión

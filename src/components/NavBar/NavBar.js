@@ -4,8 +4,8 @@ import Conocenos from './Conocenos';
 
 const NavBar = () => {
     return (
-        <div>
-            <img src='/images/Agape.Sample.png' alt="Logo" /> {/* Añadir animación o bien sólo onClick() o con hover para que se despleguen las opciones */}
+        <div> {/* Añadir animación o bien sólo onClick() o con hover para que se despleguen las opciones */}
+            <img src='/images/Agape.Sample.png' alt="Logo" /> 
             <div>
                 <div>
                     <h3>CONÓCENOS</h3>

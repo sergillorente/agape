@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import SecondCarousel from './SecondCarousel';
+import { SecondCarouselData } from './SecondCarouselData';
+
 const Histories = () => {
     return (
         <div>
@@ -15,6 +18,7 @@ const Histories = () => {
                     <p>Ver todas las historias</p>
                 {/* </Link to=""> */}
             </div>
+            <SecondCarousel slides={SecondCarouselData} />
         </div>
     );
 };
