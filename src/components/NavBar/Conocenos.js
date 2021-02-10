@@ -5,36 +5,36 @@ const Conocenos = () => {
     return (
         <div>
             <ul>
-                {/* <Link to=""> */}
+                {/* <Link to={null}> */}
                     <li>
                         <h4>VISIÓN & MISIÓN</h4>
                     </li>
-                {/* </Link to =""> */}
+                {/* </Link> */}
                 {/* <Link to=""> */}
                     <li>
                         <h4>STAFF</h4>
                     </li>
-                {/* </Link to =""> */}
+                {/* </Link> */}
                 {/* <Link to=""> */}
                     <li>
                         <h4>ENFOQUES</h4>
                     </li>
-                {/* </Link to =""> */}
+                {/* </Link> */}
                 {/* <Link to=""> */}
                     <li>
                         <h4>HISTORIAS DE ÁGAPE</h4>
                     </li>
-                {/* </Link to =""> */}
+                {/* </Link> */}
                 {/* <Link to=""> */}
                     <li>
                         <h4>HISTORIA</h4>
                     </li>
-                {/* </Link to =""> */}
+                {/* </Link> */}
                 {/* <Link to=""> */}
                     <li>
                         <h4>ÁGAPE INTERNACIONAL</h4>
                     </li>
-                {/* </Link to =""> */}
+                {/* </Link> */}
             </ul>
         </div>
     );
