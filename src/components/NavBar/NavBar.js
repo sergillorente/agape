@@ -5,7 +5,7 @@ import Conocenos from './Conocenos';
 const NavBar = () => {
     return (
         <div>
-            <div>Logo</div>
+            <img src="" alt="Logo" />
             <div>
                 <div>
                     <h3>CONÓCENOS</h3>
