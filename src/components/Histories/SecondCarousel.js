@@ -29,10 +29,10 @@ const SecondCarousel = ({ slides }) => {
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
                         {index === current && (
                             <img src={slide.image} alt="Gathering image" className="image" />
-                        )};
+                        )}
                     </div>
                 )
-            })};
+            })}
         </section>
     );
 };
