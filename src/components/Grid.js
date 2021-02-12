@@ -1,6 +1,6 @@
 import React from 'react'
 
-const VlogSection = () => {
+const Grid = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const VlogSection = () => {
     )
 }
 
-export default VlogSection;
+export default Grid;

@@ -1,4 +1,4 @@
-export const FirstCarouselData = [
+export const FirstSliderData = [
     {
         image: 'https://images.unsplash.com/photo-1612831455546-a87cb4d6b276?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80'
     },

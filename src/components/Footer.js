@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <div>
-                <img src='/images/Agape.Sample.png' alt="Logo" /> 
+                <img src='/images/logo.png' alt="Logo" /> 
             </div>
             <div>
                 <h5>CONÓCENOS</h5>
@@ -13,7 +13,7 @@ const Footer = () => {
                     <li>STAFF</li>
                     <li>ENFOQUES</li>
                     <li>HISTORIAS DE ÁGAPE</li>
-                    <li>HISTORIA</li>
+                    <li>HISTOIA</li>
                     <li>ÁGAPE INTERNACIONAL</li>
                 </ul>
             </div>

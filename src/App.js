@@ -1,7 +1,8 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-import NavBar from './components/NavBar/NavBar';
-import HomePage from './pages/home';
+import NavBar from './components/NavBar/Index';
+import HomePage from './pages/Home';
 import Footer from './components/Footer';
 
 
@@ -11,7 +12,9 @@ class App extends React.Component {
         return (
         <div>
             <NavBar />
-            <HomePage />
+            <Switch>
+            <Route to="/" exact component={HomePage} />
+            </Switch>
             <Footer />
         </div>
     )};

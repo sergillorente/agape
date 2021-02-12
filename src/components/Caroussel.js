@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LocationSection = () => {
+const Caroussel = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const LocationSection = () => {
     )
 }
 
-export default LocationSection;
+export default Caroussel;
