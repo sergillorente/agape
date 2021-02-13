@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Conocenos = ({ toggle }) => {
     return (
         <div 
-        className="flex text-xs"
+        className="text-xs"
         onClick={toggle}
         >
             <ul>
