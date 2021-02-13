@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Conocenos = () => {
+const Conocenos = ({ toggle }) => {
     return (
-        <div>
+        <div 
+        className="flex text-xs"
+        onClick={toggle}
+        >
             <ul>
                 <li>
                     <Link to={null}>

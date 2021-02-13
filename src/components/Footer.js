@@ -1,10 +1,13 @@
 import React from 'react';
+import {Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div>
             <div>
-                <img src='/images/logo.png' alt="Logo" /> 
+                <Link to={null}>
+                    <img src='/images/logo.png' alt="Logo" /> 
+                </Link>
             </div>
             <div>
                 <h5>CONÓCENOS</h5>

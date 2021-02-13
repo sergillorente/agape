@@ -7,9 +7,8 @@ import Footer from './components/Footer';
 
 
 
-class App extends React.Component {
-    render() {
-        return (
+const App = () => {
+    return (
         <div>
             <NavBar />
             <Switch>
@@ -17,7 +16,7 @@ class App extends React.Component {
             </Switch>
             <Footer />
         </div>
-    )};
+    )
 };
 
 export default App;
